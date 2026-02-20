@@ -1,0 +1,90 @@
+.despre-sectiune {
+    margin-top: 100px;
+    padding: 20px 5%; 
+    max-width: 1400px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-despre {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 30px; 
+    max-width: 600px;  
+}
+
+
+.despre-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap-reverse;
+}
+
+.despre-stinga {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+
+.despre-titlu {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px; 
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 20px 0;
+    color: #444; 
+    letter-spacing: 1.2px;
+    text-transform: none;
+}
+
+.button-despre {
+    width: 156px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    flex: 1; /* Ocupă restul de 50% din spațiu */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.despre-imag {
+    width: 100%; 
+    height: auto;
+    max-width: 700px; 
+    display: block;
+    object-fit: contain;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px; 
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}

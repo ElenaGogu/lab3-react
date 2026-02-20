@@ -1,0 +1,51 @@
+.componentaProdus {
+    flex: 0 0 48%; 
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.canapeaAfiseaza {
+    width: 100%;
+    height: 350px; 
+    object-fit: contain; 
+    background-color: #f4f4f4; 
+    border-radius: 4px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.textAfiseaza {
+    font-size: 1.3rem; 
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+    color: #1a1a1a;
+}
+
+.containerPretButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; 
+}
+
+
+.pretAfiseaza {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.buttonAfiseaza {
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.buttonAfiseaza:hover {
+    background-color: #000;
+    color: #fff;
+}

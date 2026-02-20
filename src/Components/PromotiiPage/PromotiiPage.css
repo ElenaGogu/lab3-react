@@ -1,0 +1,29 @@
+.sectiuneProduseProm {
+    position: relative;
+    margin-top: 100px;
+    padding: 20px 5%; 
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titluProm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 40px 0;
+    color: #444; 
+    letter-spacing: 1.2px;
+    text-transform: none; 
+    text-align: center;
+}
+
+.listaProduseProm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 30px 20px; 
+    width: 100%;
+    padding: 20px 0;
+}

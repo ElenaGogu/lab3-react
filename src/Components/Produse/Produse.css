@@ -1,0 +1,59 @@
+.sectiuneProduse {
+    padding: 34px 0 30px 0; 
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 5%; 
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px; 
+    font-weight: 300; 
+    line-height: 1.4;
+    margin: 0 0 40px 0; 
+    color: #444;
+    letter-spacing: 1.2px;
+    text-transform: none;
+}
+
+.listaProduse {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin: 0 0 34px 0;
+}
+
+.veziCategorii {
+    width: 156px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1500px) {
+    .listaProduse {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 968px) {
+    .listaProduse {
+        flex-direction: column;
+    }
+}

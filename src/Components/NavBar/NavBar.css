@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.Butoane {
+  display: flex;
+  gap: 48px;
+  flex: 1;
+  justify-content: center;
+}
+
+.Butoane a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.icons {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.icon {
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px; 
+}

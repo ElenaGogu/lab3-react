@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.contacteContainer {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.paginaContacte {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.imgContacte {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%); 
+}
+
+.titluContacte {
+    position: absolute;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 5px; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.formularContacte {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.formularContacte h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.contactFormContacte {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contactFormContacte input, 
+.contactFormContacte textarea {
+    padding: 15px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.inputRindContacte {
+    display: flex;
+    gap: 15px;
+}
+
+.inputRindContacte input {
+    flex: 1;
+}
+
+.contactFormContacte textarea {
+    height: 180px;
+    resize: none;
+}
+
+.btnTrimiteContacte {
+    background-color: #333333;
+    color: white;
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.btnTrimiteContacte:hover {
+    background-color: #000000;
+}
+
+.informContacte {
+    max-width: 800px; 
+    margin: 80px auto; 
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 40px;
+    gap: 50px; 
+}
+
+.informBox {
+    flex: 1; 
+    text-align: left;
+}
+
+.informBox:last-child {
+    text-align: right;
+}
