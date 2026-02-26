@@ -17,4 +17,4 @@ function AfiseazaProduseCard({imagine, denumire, pret, buttonText}){
         </>
     )
 }
-export default AfiseazaProduseCard
+export {AfiseazaProduseCard}

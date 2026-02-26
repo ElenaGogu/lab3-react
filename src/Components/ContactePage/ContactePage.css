@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 .contacteContainer {
     font-family: 'Open Sans', sans-serif;
@@ -16,7 +15,6 @@
     justify-content: center;
     overflow: hidden;
 }
-
 
 .imgContacte {
     width: 80%;

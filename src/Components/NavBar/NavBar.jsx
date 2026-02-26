@@ -3,11 +3,11 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <nav className="navbar">
+    <nav className="navBar">
       
       <h1>ConstructMob</h1>
       
-      <div className="Butoane">
+      <div className="butoane">
         <Link className="acasa" to="/">Acasa</Link>
         <Link className="produse" to="/produse">Produse</Link>
         <Link className="promotii" to="/promotii">Promotii</Link>
@@ -24,4 +24,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export {NavBar};

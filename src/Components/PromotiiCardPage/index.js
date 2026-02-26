@@ -1,0 +1,1 @@
+export {PromotiiCardPage} from './PromotiiCardPage'

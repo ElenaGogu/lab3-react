@@ -1,8 +1,8 @@
 import './Produse.css';
-import ProdusCard from '../ProdusCard/ProdusCard';
-import canapeaImg from '../../assets/canapea.png';
-import dormitorImg from '../../assets/dormitor.png';
-import masaImg from '../../assets/masa.png';
+import {ProdusCard} from '../ProdusCard';
+import canapeaImg from '@assets/canapea.png';
+import dormitorImg from '@assets/dormitor.png';
+import masaImg from '@assets/masa.png';
 
 function Produse(){
     return(
@@ -40,4 +40,4 @@ function Produse(){
         </div>
     )
 }
-export default Produse;
+export {Produse}

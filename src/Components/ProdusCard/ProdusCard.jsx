@@ -2,7 +2,7 @@ import './ProdusCard.css'
 
 function ProdusCard({imagine, titlu, altText, button, backgroundColor}){
     return(
-        <div className="container" style={{backgroundColor: backgroundColor}}>
+        <div className="container" style={{backgroundColor}}>
             <div className="imagineContainer">
                 <img src={imagine} alt={altText} className="canapea" />
             </div>
@@ -11,4 +11,4 @@ function ProdusCard({imagine, titlu, altText, button, backgroundColor}){
         </div>
     )
 }
-export default ProdusCard;
+export {ProdusCard}

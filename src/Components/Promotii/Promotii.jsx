@@ -1,17 +1,17 @@
-import PromotiiCard from "../PromotiiCard/PromotiiCard";
-import canapeaProm from "../../assets/canapeaPromotii.png";
-import masaProm from "../../assets/masaPromotii.png";
-import scaunProm from "../../assets/scaunPromotii.png";
-import fotoliuProm from "../../assets/fotoliuPromotii.png";
-import dormitorProm from "../../assets/dormitorPromotii.png";
+import {PromotiiCard} from "../PromotiiCard";
+import canapeaProm from "@assets/canapeaPromotii.png";
+import masaProm from "@assets/masaPromotii.png";
+import scaunProm from "@assets/scaunPromotii.png";
+import fotoliuProm from "@assets/fotoliuPromotii.png";
+import dormitorProm from "@assets/dormitorPromotii.png";
 import './Promotii.css';
 
 function Promotii(){
     return(
         <div className="sectiuneProduseProm">
             <h2 className="titluProm">Promotii</h2>
-            <div className="slider-container">
-            <i className="fa-solid fa-chevron-left sageata-stanga"></i>
+            <div className="sliderContainer">
+            <i className="fa-solid fa-chevron-left sageataStanga"></i>
 
             <div className="listaProduseProm">
                 <PromotiiCard
@@ -49,9 +49,9 @@ function Promotii(){
                 reducere="20 %"
                 />
             </div>
-            <i className="fa-solid fa-chevron-right sageata-dreapta"></i>
+            <i className="fa-solid fa-chevron-right sageataDreapta"></i>
         </div>
         </div>
     )
 }
-export default Promotii;
+export {Promotii}

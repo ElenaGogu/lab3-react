@@ -1,10 +1,10 @@
 import './ProdusePage.css'
-import ProduseCardPage from "../ProduseCardPage/ProduseCardPage";
-import canapeaGalbena from "../../assets/canapeaGalb.png";
-import masaLemn from "../../assets/masaProduse.png";
-import birouLucru from "../../assets/masaBirou.png";
-import fotoliuAccent from "../../assets/scaun2Produse.png";
-import patPerfect from "../../assets/patPerfect.png";
+import {ProduseCardPage} from "../ProduseCardPage";
+import canapeaGalbena from "@assets/canapeaGalb.png";
+import masaLemn from "@assets/masaProduse.png";
+import birouLucru from "@assets/masaBirou.png";
+import fotoliuAccent from "@assets/scaun2Produse.png";
+import patPerfect from "@assets/patPerfect.png";
 
 function ProdusePage(){
     return (
@@ -51,4 +51,4 @@ function ProdusePage(){
         </div>
     )
 }
-export default ProdusePage
+export {ProdusePage}

@@ -1,0 +1,1 @@
+export {AfiseazaProduseCard} from './AfiseazaProduseCard'

@@ -1,0 +1,1 @@
+export {Promotii} from './Promotii'

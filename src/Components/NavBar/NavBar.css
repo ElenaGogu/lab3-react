@@ -1,4 +1,4 @@
-.navbar {
+.navBar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,24 +15,24 @@
   height: 80px;
 }
 
-.navbar h1 {
+.navBar h1 {
   font-size: 24px;
   font-weight: 700;
   margin: 0;
   color: #000;
 }
 
-.Butoane {
+.butoane {
   display: flex;
   gap: 48px;
   flex: 1;
   justify-content: center;
 }
 
-.Butoane a {
+.butoane a {
   text-decoration: none;
   color: #000;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 

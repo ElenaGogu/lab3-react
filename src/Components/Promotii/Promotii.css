@@ -19,8 +19,8 @@
     text-align: center;
 }
 
-.sageata-stanga, 
-.sageata-dreapta {
+.sageataStanga, 
+.sageataDreapta {
     position: absolute;
     top: 50%; 
     transform: translateY(-50%); 
@@ -32,10 +32,10 @@
     
 }
 
-.sageata-stanga {
+.sageataStanga {
     left: 10px;
 }
 
-.sageata-dreapta {
+.sageataDreapta {
     right: 10px;
 }

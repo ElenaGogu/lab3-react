@@ -1,13 +1,12 @@
-.despre-sectiune {
+.despreSectiune {
     margin-top: 100px;
     padding: 20px 5%; 
     max-width: 1400px;
-    
     margin-left: auto;
     margin-right: auto;
 }
 
-.text-despre {
+.textDespre {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -19,7 +18,7 @@
 }
 
 
-.despre-container {
+.despreContainer {
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -27,7 +26,7 @@
     flex-wrap: wrap-reverse;
 }
 
-.despre-stinga {
+.despreStinga {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -35,7 +34,7 @@
     justify-content: center;
 }
 
-.despre-titlu {
+.despreTitlu {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px; 
@@ -47,7 +46,7 @@
     text-transform: none;
 }
 
-.button-despre {
+.buttonDespre {
     width: 156px;
     height: 40px;
     background-color: white;
@@ -70,7 +69,7 @@
     justify-content: center;
 }
 
-.despre-imag {
+.despreImag {
     width: 100%; 
     height: auto;
     max-width: 700px; 
@@ -78,7 +77,7 @@
     object-fit: contain;
 }
 
-.play-icon {
+.playIcon {
     position: absolute;
     top: 50%;
     left: 50%;

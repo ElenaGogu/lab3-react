@@ -1,21 +1,21 @@
-import PromotiiCard from "../PromotiiCard/PromotiiCard";
-import canapeaProm from "../../assets/canapeaPromotii.png";
-import masaProm from "../../assets/masaPromotii.png";
-import scaunProm from "../../assets/scaunPromotii.png";
-import fotoliuProm from "../../assets/fotoliuPromotii.png";
-import dormitorProm from "../../assets/dormitorPromotii.png";
-import canapea2Prom from "../../assets/canapea2Promotii.png";
-import masa2Prom from "../../assets/masa2Promotii.png";
-import scaun2Prom from "../../assets/scaun2Promotii.png";
-import fotoliu2Prom from "../../assets/fotoliu2Promotii.png";
-import dormitor2Prom from "../../assets/dormitor2Promotii.png";
+import {PromotiiCard} from "../PromotiiCard";
+import canapeaProm from "@assets/canapeaPromotii.png";
+import masaProm from "@assets/masaPromotii.png";
+import scaunProm from "@assets/scaunPromotii.png";
+import fotoliuProm from "@assets/fotoliuPromotii.png";
+import dormitorProm from "@assets/dormitorPromotii.png";
+import canapea2Prom from "@assets/canapea2Promotii.png";
+import masa2Prom from "@assets/masa2Promotii.png";
+import scaun2Prom from "@assets/scaun2Promotii.png";
+import fotoliu2Prom from "@assets/fotoliu2Promotii.png";
+import dormitor2Prom from "@assets/dormitor2Promotii.png";
 import '../Promotii/Promotii.css'
 
 function PromotiiPage(){
     return(
         <div className="sectiuneProduseProm">
             <h2 className="titluProm">Promotii</h2>
-            <div className="slider-container">
+            <div className="sliderContainer">
             <div className="listaProduseProm">
                 <PromotiiCard
                     imagineProm={canapeaProm}
@@ -92,4 +92,4 @@ function PromotiiPage(){
         </div>
     )
 }
-export default PromotiiPage;
+export {PromotiiPage}

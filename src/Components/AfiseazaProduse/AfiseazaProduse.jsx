@@ -1,11 +1,11 @@
 import './AfiseazaProduse.css'
-import canapea1 from "../../assets/canapeaDescriere.png";
-import canapea2 from "../../assets/canapea2.png";
-import canapea3 from "../../assets/canapea3.png";
-import canapea4 from "../../assets/canapea4.png";
-import canapea5 from "../../assets/canapea5.png";
-import canapea6 from "../../assets/canapea6.png";
-import AfiseazaProduseCard from '../AfiseazaProduseCard/AfiseazaProduseCard';
+import canapea1 from "@assets/canapeaDescriere.png";
+import canapea2 from "@assets/canapea2.png";
+import canapea3 from "@assets/canapea3.png";
+import canapea4 from "@assets/canapea4.png";
+import canapea5 from "@assets/canapea5.png";
+import canapea6 from "@assets/canapea6.png";
+import {AfiseazaProduseCard} from '../AfiseazaProduseCard';
 
 function AfiseazaProduse(){
     return (
@@ -56,4 +56,4 @@ function AfiseazaProduse(){
         </div>
     )
 }
-export default AfiseazaProduse
+export {AfiseazaProduse}

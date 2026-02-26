@@ -1,0 +1,1 @@
+export {PromotiiPage} from './PromotiiPage'

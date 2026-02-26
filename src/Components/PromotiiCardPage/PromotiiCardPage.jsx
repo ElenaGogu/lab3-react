@@ -1,5 +1,6 @@
 import './PromotiiCard.css';
-function PromotiiCard({imagineProm, textProm, pretProm, reducere}){
+
+function PromotiiCardPage({imagineProm, textProm, pretProm, reducere}){
     return (
         <div className="cardPromotii">
         <div>
@@ -19,4 +20,4 @@ function PromotiiCard({imagineProm, textProm, pretProm, reducere}){
     </div>
     ) 
 }
-export default PromotiiCard;
+export {PromotiiCardPage}

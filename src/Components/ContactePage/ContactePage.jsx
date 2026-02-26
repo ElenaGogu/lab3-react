@@ -1,5 +1,5 @@
 import './ContactePage.css'
-import imgShowroom from '../../assets/showroom.png';
+import imgShowroom from '@assets/showroom.png';
 
 function ContactePage() {
     return (
@@ -45,5 +45,5 @@ function ContactePage() {
     );
 }
 
-export default ContactePage;
+export {ContactePage}
         

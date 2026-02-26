@@ -1,15 +1,15 @@
 import {Link} from 'react-router-dom'
 import './Header.css';
-import scaunImg from '../../assets/scaun.png';
+import scaunImg from '@assets/scaun.png';
 
 function Header() {
     return (
-        <div className="header-container">
-            <div className="header-stinga">
+        <div className="headerContainer">
+            <div className="headerStinga">
                 <p className="subtitlu">Eleganta si Stil</p>
                 <h1 className="titluComp">Construct Mob</h1>
                 <Link to="/promotii">
-                <button className="promotii-btn">Promotii</button>
+                <button className="promotiiBtn">Promotii</button>
                 </Link>
                 
                 <div className="icons">
@@ -18,12 +18,12 @@ function Header() {
                 </div>
             </div>
 
-            <div className="header-dreapta">
-                <div className="cerc-decorativ"> 
+            <div className="headerDreapta">
+                <div className="cercDecorativ"> 
                         <img src={scaunImg} alt="scaun legant" className="scaun" />
            </div>
             </div>
         </div>
     );
 }
-export default Header;
+export {Header}

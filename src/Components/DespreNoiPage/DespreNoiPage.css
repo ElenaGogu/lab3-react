@@ -1,27 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-.pagina-despreNoi {
-    max-width: 900px; 
+.paginaDespreNoi {
+    max-width: 1200px; 
     margin: 60px auto;
     padding: 0 20px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.continut-ingust {
-    max-width: 750px; 
+.continutIngust {
+    max-width: 950px; 
     margin: 0 auto;  
 }
 
-.text-despreNoi, 
-.text2-despreNoi, 
-.text3-despreNoi {
+.textDespreNoi, 
+.text2DespreNoi, 
+.text3DespreNoi {
     font-size: 15px;
     color: #444;
     margin-bottom: 30px;
     line-height: 1.7;
 }
 
-.img-atelier, 
+.imgAtelier, 
 .lemn {
     width: 100%;
     height: auto;
@@ -32,4 +31,10 @@
 .lemn {
     max-width: 450px; 
     margin: 40px auto;
+}
+
+.sloganDespreNoi{
+    font-size: 34px;
+    margin-bottom: 24px;
+   
 }

@@ -1,0 +1,1 @@
+export {ProduseCardPage} from './ProduseCardPage'

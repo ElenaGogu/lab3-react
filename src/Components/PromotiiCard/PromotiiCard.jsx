@@ -19,4 +19,4 @@ function PromotiiCard({imagineProm, textProm, pretProm, reducere}){
     </div>
     ) 
 }
-export default PromotiiCard;
+export {PromotiiCard}
